@@ -1122,7 +1122,7 @@ function MemoBoard({memos,open,onToggle,onAdd,onDel,onToggleDone}){
   );
 }
 
-export default function App(){
+function App(){
   const [days,setDays]=useState(D0);
   const [memos,setMemos]=useState(MEMO0);
   const [ready,setReady]=useState(false);
